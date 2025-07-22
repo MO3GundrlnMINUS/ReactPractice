@@ -1,0 +1,44 @@
+.progFlex{
+    display: flex;
+    flex-direction: row;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+    color: #A6A6A6;
+    padding-bottom: 8px;
+
+    .progressPers{
+        margin-left: auto;
+    }
+}
+    .value{
+        height: 6px;
+        background-color: #1C1C1C;
+        border-radius: 12px;
+        margin-bottom: 30px;
+        .firstElem{
+            height: 6px;
+            background-color: #FF6464;
+            width: 85%;
+            border-radius: 12px;
+        }
+        .secondElem{
+            height: 6px;
+            background-color: #9272D4;
+            width: 55%;
+            border-radius: 12px;
+        }
+        .thirdElem{
+            height: 6px;
+            background-color: #5185D4;
+            width: 65%;
+            border-radius: 12px;
+        }
+        .fourthElem{
+            height: 6px;
+            background-color: #CA56F2;
+            width: 72%;
+            border-radius: 12px;
+        }
+    }
+

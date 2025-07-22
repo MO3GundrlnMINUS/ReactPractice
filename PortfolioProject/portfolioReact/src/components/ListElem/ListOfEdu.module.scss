@@ -1,0 +1,40 @@
+.listOutline{
+    border: 2px solid #212425;
+    border-radius: 12px;
+    display: flex;
+    padding: 15px 20px;
+    display: flex;
+    flex-direction: column;
+    margin: 20px 30px 0 0;
+
+        .yearText{
+            color:#a6a6a6;
+            font-size: 16px;
+            line-height: 30px;
+            font-weight: 400;
+        }
+
+        .titleColomn{
+            display: flex;
+            flex-direction: row;
+            line-height: 30px;
+            font-size: 18px;
+            font-weight: 400;
+
+                .nameTitle{
+                    color: #ffffff;
+                }
+                .surNameTitle{
+                    color: #a6a6a6;
+                    padding-left: 6px;
+                }
+        }
+        
+        .cityName{
+            color: #a6a6a6;
+            font-size: 16px;
+            font-weight: 400;
+            line-height: 30px;
+        }
+        
+}

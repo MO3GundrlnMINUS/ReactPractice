@@ -1,0 +1,27 @@
+// .button {
+//     // базовые стили, если нужно
+// }
+
+.btnPrimary{
+    background: linear-gradient(153.43deg, #FA5252 16.67%, #DD2476 100%);
+    border-radius: 40px;
+    border:none;
+    width: 216px;
+    height: 55px;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 27px;
+    color: #ffffff;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 35px;
+    svg{
+        margin-right: 10px;
+    }
+}
+.btnBlack{
+    background: #111111;
+    border-radius: 12px;
+    width: 132px;
+    height: 50px;
+}

@@ -1,0 +1,97 @@
+div{
+    padding:0;
+
+    .sidebar{
+
+        height: 650px;
+        border-radius: 20px;
+        background-color: #000000;
+        margin: 0;
+        display: flex;
+        flex-direction: column;
+        h2 {
+            height: 34px;
+            font-weight: 500;
+            font-size: 26px;
+            line-height: 34px;
+            margin-left: auto;
+            margin-right: auto;
+            color: #ffffff;
+            padding: 70px 0 15px 0;
+        }
+        p{
+            background-color: #1d1d1d;
+            border-radius: 8px;
+            color: gray;
+            padding: 5px 20px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        .socialIcons {
+            width: fit-content;
+            display: flex;
+            list-style-type: none;
+            margin-left: auto;
+            margin-right: auto;
+    
+                li a{
+                    display: flex;
+                    flex-direction: column;
+                    gap: 8px;
+                    align-items: center;
+                    justify-content: center;
+                    margin: 20px 5px;
+                    width: 40px;
+                    height: 40px;
+                    background-color: #212425;
+                    line-height: 23px;
+                    text-align: center;
+                    border-radius: 8px;
+                    transition: 0.4s all;
+                }
+                li a:hover{
+                    background: linear-gradient(153.43deg, #FA5252 16.67%, #DD2476 100%);
+                }
+        }
+        .singleContact{
+            background-color: #1d1d1d;
+            border-radius: 16px;
+            margin: 0 30px;
+            padding: 20px 0;
+            li{
+                a{
+                    display: flex;
+                    align-items: center;
+                    margin: 0 30px;
+                    padding: 10px 0;
+                    border-bottom: 1px solid #3D3A3A;
+                    
+                    .divSvg{
+                        width: 44px;
+                        height: 44px;
+                        background-color: #000000;
+                        display: flex;
+                        border-radius: 8px;
+                        svg{
+                            margin-left: auto;
+                            margin-right: auto;
+                            margin-top: 11px;
+                        }
+                    }               
+                    .nameValue{
+                        line-height: 10px;
+                        
+                        .detailValue{
+                            color: #ffffff;
+                        }
+                    }
+                }
+                &:last-child{
+                    a{
+                        border-bottom: 0;
+                    }
+                }
+            }
+        }
+    }
+}
